@@ -1,11 +1,6 @@
 import "./style.css";
 import { Game } from "./Game";
-
-export const GAME_WIDTH = 600;
-export const GAME_HEIGHT = 600;
-export const TILE_SIZE = 30;
-export const ROWS = GAME_WIDTH / TILE_SIZE;
-export const COLS = GAME_HEIGHT / TILE_SIZE;
+import { GAME_HEIGHT, GAME_WIDTH } from "./config";
 
 const app = document.querySelector("#app");
 

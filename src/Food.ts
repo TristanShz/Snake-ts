@@ -1,5 +1,5 @@
 import { Game } from "./Game";
-import { COLS, ROWS, TILE_SIZE } from "./main";
+import { COLS, ROWS, TILE_SIZE } from "./config";
 
 export class Food {
   width: number;

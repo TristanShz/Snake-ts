@@ -1,5 +1,5 @@
-import { Game, GAME_STATE } from "./Game";
-import { DIRECTIONS } from "./utils";
+import { Game } from "./Game";
+import { DIRECTIONS, GAME_STATE } from "./config";
 
 export class InputHandler {
   constructor(game: Game) {

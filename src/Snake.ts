@@ -1,6 +1,5 @@
-import { Direction, DIRECTIONS } from "./utils";
-import { COLS, ROWS, TILE_SIZE } from "./main";
 import { Game } from "./Game";
+import { COLS, Direction, DIRECTIONS, ROWS, TILE_SIZE } from "./config";
 
 const INITIAL_SNAKE = [
   { x: 12, y: 10 },

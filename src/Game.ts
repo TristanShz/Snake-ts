@@ -1,13 +1,8 @@
 import { Snake } from "./Snake";
 import { InputHandler } from "./InputHandler";
 import { Food } from "./Food";
-import { GAME_HEIGHT, GAME_WIDTH } from "./main";
+import { GAME_HEIGHT, GAME_STATE, GAME_WIDTH } from "./config";
 
-export const GAME_STATE = {
-  PAUSE: 0,
-  RUN: 1,
-  STOP: 3,
-};
 export class Game {
   state = GAME_STATE.RUN;
   speed = 1;
